@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Kaushan+Script&family=Quattrocento&family=Quicksand&display=swap');
+
+
+.titulo1{
+    background-color: aqua;
+    font-size: 2rem;
+    color: white;
+    justify-content: center;
+    font-family: 'Bodoni Moda', serif;
+}
+.titulo2{
+    font-family: 'Quicksand', sans-serif;
+    color: brown;
+}
+.titulo3{
+    font-family: 'Quicksand', sans-serif;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: transparent;
+    color: azure;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: black;
+}
+body{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.table{
+    border-collapse: collapse;
+}
+.table td{
+    border: 1px solid;
+    text-align: center;
+}
+.table th{
+    background-color: blue;
+    color: white;
+}
+.table td:hover{
+    background-color: lightskyblue;
+    color: white;
+}
+.table th:hover{
+    background-color: lightyellow;
+    color: rgb(218, 137, 137);
+}
+.td{
+    font-weight: bold;
+}
+caption{
+    font-family: 'Bodoni Moda', serif;
+    font-size: 20px;
+}
